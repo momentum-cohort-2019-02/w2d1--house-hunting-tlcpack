@@ -14,7 +14,7 @@ if percentage_down == '':
     percentage_down = .25
 else:
     percentage_down = float(percentage_down)
-    
+
 portion_down_payment = total_cost * percentage_down
 current_savings = 0
 monthly_salary = annual_salary / 12
@@ -32,5 +32,4 @@ while current_savings < portion_down_payment:
     months += 1
     # print("New months: " + str(months))
 
-if current_savings >= portion_down_payment:
-    print("Number of months: " + str(months))
+print("Number of months: " + str(months))
