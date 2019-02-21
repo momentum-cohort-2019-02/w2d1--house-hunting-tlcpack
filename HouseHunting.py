@@ -19,7 +19,6 @@ portion_down_payment = total_cost * percentage_down
 current_savings = 0
 monthly_salary = annual_salary / 12
 months = 0
-
 monthly_saving = monthly_salary * portion_saved
 
 #building up savings for down payment
